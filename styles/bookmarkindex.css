@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  width: 100%;
+  background-color: #604D8D;
+  color: rgb(252, 250, 252);
+  display: block;
+  padding: 50px 50px;
+  text-align: center;
+  text-shadow: rgb(21, 5, 56);
+  font-size: 50px;
+}
+
+body {
+  margin: 0 auto;
+  background-color: rgb(124, 103, 172);
+}
+
+/*design for the header*/
+
+
+/* design for the new bookmark generator */
+
+.container {
+  background-color: rgb(162, 145, 202);
+  color: #604D8D;
+  border: 4px solid #604D8D;
+  padding: 50px 50px;
+}
+
+.title-bookmark-input {
+  width: 75%;
+  height: 75px;
+  margin-left: 250px;
+  background-color: rgba(96, 77, 141, 0.418);
+  font-size: 80px;
+  text-align: center;
+}
+
+.url-bookmark-input {
+  width: 75%;
+  height: 75px;
+  margin-left: 350px;
+  background-color: rgba(96, 77, 141, 0.418);
+  font-size: 80px;
+  text-align: center;
+}
+
+.desc-bookmark-input {
+  width: 75%;
+  height: 75px;
+  margin-left: 50px;
+  background-color: rgba(96, 77, 141, 0.418);
+  font-size: 80px;
+  text-align: center;
+}
+
+.bookmark-rating {
+  width: 250px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(7, 0, 1, 0.151);
+  
+}
+
+.control-item {
+  width: 250px;
+  height: 40px;
+  background-color: rgba(36, 1, 30, 0.418);
+  text-align: center;
+  color: white;
+}
+
+.new-bookmark {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(11, 2, 32, 0.644);
+  margin-top: 40px;
+  font-size: 75px;
+  color: white;
+  border: 2px solid white;
+}
+
+/* INDIVIDUAL BOOKMARKS */
+
+ul {
+  list-style-type: none;
+}
+
+#below-the-form {
+  font-size: 50px;
+  color: white;
+  text-align: center
+}
+
+#below-the-form-rating {
+  font-size: 30px;
+  color: white;
+  text-align: 
+}
+
+/* INDIVIDUAL COLLAPSED BOOKMARKS */
+
+.collapsed-bookmark {
+  width: 50%;
+  border: 2px solid white;
+  background-color: #604D8D;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#expanded-title {
+  font-size: 200px;
+  text-align: center;
+  color: white;
+}
+
+/* INDIVIDUAL EXPANDED BOOKMARKS */
+
+.expanded-bookmark {
+  border: 4px solid white;
+  background-color: rgba(96, 77, 141, 0.473);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#expanded-url {
+  background-color: rgb(31, 10, 80);
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 100px;
+  font-size: 75px;
+  text-align: center;
+  border: 2px solid white;
+  color: white;
+}
+
+.delete-bookmark {
+  background-color: red;
+}
